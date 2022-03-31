@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title> My 1XXX Level Custom Error page</title>
+    <title>Eightstorm is not available in your country</title>
     <style type="text/css">
         html,
         body {
@@ -14,6 +14,9 @@
             line-height: 1.9;
             color: #757575;
             background-color: #fff;
+            background-image: url(https://unavailable.eightstorm.com//assets/img/es-bg-transp.jpg);
+
+            background-repeat: repeat-y;
         }
 
         h1 {
@@ -38,22 +41,75 @@
             font-size: 8px;
             color: gray;
         }
+
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg .tg-wk8r {
+            background-color: #ffffff;
+            border-color: #ffffff;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .Absolute-Center {
+            display: flex; // make us of Flexbox
+            align-items: center; // does vertically center the desired content
+            justify-content: center; // horizontally centers single line items
+            text-align: center; // optional, but helps horizontally center text that breaks into multiple lines
+        }
     </style>
 </head>
 
 <body>
-    <div style="background-color: white; background-image: url(https://iili.io/M9ImXt.md.jpg); vertical-align: middle; text-align: center;">
-        <div style="background-color: white;">
-            <h3>Welcome to EightStorm Crypto-Casino!</h3>
-            <p class="lead">Unfortunately, your current IP Address indicates your geolocation is a restricted jurisdiction. </p>
-            <p>As such, we are unable to offer you an entertainment experience on the platform. </p>
-            <p>If you believe this is an error, please contact customer service. </p>
-            <table style="align-self: center; vertical-align: middle;">
-                <tr>
-                    <p style="text-align: left;"><small>::CLOUDFLARE_ERROR_1000S_BOX::</small></p>
-                </tr>
-            </table>
 
-        </div>
-    </div>
+    <table class="Absolute-Center">
+        <thead>
+            <tr>
+                <th class="tg-oe15">
+                    <h3>Welcome to EightStorm Crypto-Casino!</h3>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tg-oe15">
+                    <p class="lead">Unfortunately, your current IP Address indicates your geolocation is a restricted jurisdiction. </p>
+                    <p>As such, we are unable to offer you an entertainment experience on the platform. </p>
+                    <p>If you believe this is an error, please contact customer service. </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="tg-oe15">
+                    <p style="text-align: left;"><small>::CLOUDFLARE_ERROR_1000S_BOX::</small></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
 </body></html>
